@@ -10,5 +10,5 @@ connectDatabase().then(() => {
       	logger.info(`App server running on: ${process.env.APP_BASE_URL || `http://localhost:${port}`}`);
     });
 }).catch(error => {
-  	console.log('Invalid databse connection...!');
+  	console.log('Invalid database connection...!');
 })
