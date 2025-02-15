@@ -6,7 +6,7 @@
 audit.json
 
 # environment variables
-.env
+# .env
 .env.local
 
 # uploads folder
